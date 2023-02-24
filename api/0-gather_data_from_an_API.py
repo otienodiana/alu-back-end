@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Library to import and gather data from an API """
+"""a Python script that, using this REST API"""
 
 import requests
 import sys
@@ -25,3 +25,4 @@ if __name__ == "__main__":
           task_com, total_task_done))
 
     [print("\t {}".format(task.get("title"))) for task in total_tasks]
+    
